@@ -1,0 +1,15 @@
+{
+	"manifest_version": 3,
+	"name": "Cryptic Hunt",
+	"version": "0.1",
+	"background": {
+		"service_worker": "background.js"
+	},
+	"icons": {
+		"16": "logo.png",
+		"32": "logo.png",
+		"64": "logo.png"
+	},
+	"permissions": ["storage", "declarativeNetRequest"],
+	"host_permissions": ["<all_urls>"]
+}
